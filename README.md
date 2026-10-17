@@ -2,7 +2,8 @@
 
 > Modern, yapay zeka ve bilgisayarlı görü (Computer Vision) destekli baskılı devre kartı (PCB) analiz, bileşen tanıma ve donanım kütüphanesi platformu.
 
-[English Documentation Below](#-pcb-vision-ai---smart-pcb-analysis--component-library)
+🔗 **Canlı Demo (Netlify):** [https://pcb-vision-analyzer.netlify.app](https://pcb-vision-analyzer.netlify.app)  
+📖 [English Documentation Below](#-pcb-vision-ai---smart-pcb-analysis--component-library)
 
 ---
 
@@ -51,8 +52,8 @@ Kullanıcıların baskılı devre kartı (PCB) fotoğraflarını yükleyip üzer
 
 ## 📂 Dizin Yapısı
 
-```text
-pcb-analyzer/
+~~~text
+pcb-vision-analyzer/
 ├── public/                     # Statik varlıklar (_redirects vb.)
 │   └── _redirects              # Netlify SPA yönlendirme kuralı
 ├── src/
@@ -70,14 +71,53 @@ pcb-analyzer/
 ├── package.json                # Bağımlılıklar ve npm scriptleri
 ├── vite.config.js              # Vite yapılandırması
 ├── tailwind.config.js          # Tailwind CSS yapılandırması
-└── README.md                   # Proje dokümantasyonu
+└── README.md                   # Çift dilli proje dokümantasyonu
+~~~
 
+---
 
+## 💻 Kurulum ve Çalıştırma (Lokal)
+
+Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki komutları sırasıyla uygulayın:
+
+~~~bash
+# 1. Depoyu klonlayın
+git clone https://github.com/ridvanbirben0/pcb-vision-analyzer.git
+
+# 2. Proje dizinine girin
+cd pcb-vision-analyzer
+
+# 3. Gerekli paketleri yükleyin
+npm install
+
+# 4. Geliştirme sunucusunu başlatın
+npm run dev
+~~~
+
+Tarayıcınızda `http://localhost:3000` adresini açarak uygulamayı kullanmaya başlayabilirsiniz.
+
+---
+
+## 🌐 Canlı Yayına Alma (Netlify Deployment)
+
+1. Kodları GitHub hesabınızda **public** bir depoya yükleyin.
+2. [Netlify](https://app.netlify.com) üzerinden **"Add new site" -> "Import an existing project"** adımlarını izleyin ve GitHub deponuzu seçin.
+3. Yapılandırma ayarlarını şu şekilde bırakın:
+   * **Base directory:** *(Boş bırakın)*
+   * **Build command:** `npm run build`
+   * **Publish directory:** `dist`
+4. **Deploy site** butonuna tıklayın.
+
+---
 ---
 
 # 🌐 PCB Vision AI - Smart PCB Analysis & Component Library
 
 > A modern, AI and Computer Vision-powered Printed Circuit Board (PCB) inspection, component recognition, and hardware library platform.
+
+🔗 **Live Demo (Netlify):** [https://pcb-vision-analyzer.netlify.app](https://pcb-vision-analyzer.netlify.app)
+
+---
 
 ## 📖 Overview
 
@@ -124,8 +164,8 @@ Instead of simple image tagging, the application performs in-depth component-lev
 
 ## 📂 Project Architecture
 
-```text
-pcb-analyzer/
+~~~text
+pcb-vision-analyzer/
 ├── public/                     # Static assets (_redirects, favicon)
 │   └── _redirects              # Netlify SPA routing rules
 ├── src/
@@ -144,3 +184,44 @@ pcb-analyzer/
 ├── vite.config.js              # Vite configuration
 ├── tailwind.config.js          # Tailwind CSS theme configuration
 └── README.md                   # Bilingual documentation
+~~~
+
+---
+
+## 💻 Local Setup & Development
+
+Run the following commands in your terminal to set up the project locally:
+
+~~~bash
+# 1. Clone the repository
+git clone https://github.com/ridvanbirben0/pcb-vision-analyzer.git
+
+# 2. Navigate to the project folder
+cd pcb-vision-analyzer
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
+~~~
+
+Open `http://localhost:3000` in your browser to view the application.
+
+---
+
+## 🌐 Deployment (Netlify)
+
+1. Push the source code to a **public** GitHub repository.
+2. Log in to [Netlify](https://app.netlify.com) and select **"Add new site" -> "Import an existing project"**.
+3. Use the following build settings:
+   * **Base directory:** *(Leave blank)*
+   * **Build command:** `npm run build`
+   * **Publish directory:** `dist`
+4. Click **Deploy site**.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
