@@ -2,7 +2,7 @@
 
 > Modern, yapay zeka ve bilgisayarlı görü (Computer Vision) destekli baskılı devre kartı (PCB) analiz, bileşen tanıma ve donanım kütüphanesi platformu.
 
-🔗 **Canlı Demo (Netlify):** [https://pcb-vision-analyzer.netlify.app]((https://pcbvisionanalyzer.netlify.app))  
+🚀 **Canlı Uygulama (Live Demo):** [https://pcbvisionanalyzer.netlify.app](https://pcbvisionanalyzer.netlify.app)  
 📖 [English Documentation Below](#-pcb-vision-ai---smart-pcb-analysis--component-library)
 
 ---
@@ -46,7 +46,7 @@ Kullanıcıların baskılı devre kartı (PCB) fotoğraflarını yükleyip üzer
 * **Veri Kalıcılığı:** HTML5 LocalStorage API & JSON Serialization
 * **Yapay Zeka Servisleri:** Google Gemini API (`v1beta`) & Anthropic Claude API (`v1/messages`)
 * **Geliştirme & Derleme:** Vite 5 & PostCSS
-* **Dağıtım (Deployment):** Netlify SPA (Otomatik CI/CD)
+* **Dağıtım (Deployment):** Netlify SPA ([https://pcbvisionanalyzer.netlify.app](https://pcbvisionanalyzer.netlify.app))
 
 ---
 
@@ -78,8 +78,6 @@ pcb-vision-analyzer/
 
 ## 💻 Kurulum ve Çalıştırma (Lokal)
 
-Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki komutları sırasıyla uygulayın:
-
 ~~~bash
 # 1. Depoyu klonlayın
 git clone https://github.com/ridvanbirben0/pcb-vision-analyzer.git
@@ -98,15 +96,14 @@ Tarayıcınızda `http://localhost:3000` adresini açarak uygulamayı kullanmaya
 
 ---
 
-## 🌐 Canlı Yayına Alma (Netlify Deployment)
+## 🌐 Canlı Demo & Netlify Dağıtımı
 
-1. Kodları GitHub hesabınızda **public** bir depoya yükleyin.
-2. [Netlify](https://app.netlify.com) üzerinden **"Add new site" -> "Import an existing project"** adımlarını izleyin ve GitHub deponuzu seçin.
-3. Yapılandırma ayarlarını şu şekilde bırakın:
-   * **Base directory:** *(Boş bırakın)*
-   * **Build command:** `npm run build`
-   * **Publish directory:** `dist`
-4. **Deploy site** butonuna tıklayın.
+🚀 **Canlı Uygulama Adresi:** [https://pcbvisionanalyzer.netlify.app](https://pcbvisionanalyzer.netlify.app)
+
+Uygulama **Netlify** üzerinde sürekli entegrasyon (CI/CD) ile canlı olarak yayınlanmaktadır:
+* **Canlı Demo (Live URL):** https://pcbvisionanalyzer.netlify.app
+* **Build Command:** `npm run build`
+* **Publish Directory:** `dist`
 
 ---
 ---
@@ -115,7 +112,7 @@ Tarayıcınızda `http://localhost:3000` adresini açarak uygulamayı kullanmaya
 
 > A modern, AI and Computer Vision-powered Printed Circuit Board (PCB) inspection, component recognition, and hardware library platform.
 
-🔗 **Live Demo (Netlify):** [https://pcb-vision-analyzer.netlify.app]((https://pcbvisionanalyzer.netlify.app))
+🚀 **Live Demo (Netlify):** [https://pcbvisionanalyzer.netlify.app](https://pcbvisionanalyzer.netlify.app)
 
 ---
 
@@ -158,39 +155,11 @@ Instead of simple image tagging, the application performs in-depth component-lev
 * **Data Persistence:** HTML5 LocalStorage API with JSON serialization
 * **Vision AI Providers:** Google Gemini API (`v1beta`) & Anthropic Claude API (`v1/messages`)
 * **Build Tool:** Vite 5 & PostCSS
-* **Hosting & CI/CD:** Netlify SPA with automatic routing rules
-
----
-
-## 📂 Project Architecture
-
-~~~text
-pcb-vision-analyzer/
-├── public/                     # Static assets (_redirects, favicon)
-│   └── _redirects              # Netlify SPA routing rules
-├── src/
-│   ├── components/             # Reusable UI components
-│   ├── interfaces/             # TypeScript-like data schemas
-│   ├── services/               # LocalStorage CRUD & Vision AI services
-│   │   ├── storageService.js       # CRUD and LocalStorage manager
-│   │   └── imageAnalysisEngine.js  # Gemini & Claude Vision AI engine
-│   ├── data/                   # Default demo PCB database
-│   ├── App.jsx                 # Main application controller
-│   ├── main.jsx                # React DOM entry point
-│   └── index.css               # Tailwind directives and custom styles
-├── COMPONENTS_GUIDE.md         # Hardware component educational guide
-├── index.html                  # HTML template
-├── package.json                # Project dependencies and build scripts
-├── vite.config.js              # Vite configuration
-├── tailwind.config.js          # Tailwind CSS theme configuration
-└── README.md                   # Bilingual documentation
-~~~
+* **Hosting & CI/CD:** Netlify SPA ([https://pcbvisionanalyzer.netlify.app](https://pcbvisionanalyzer.netlify.app))
 
 ---
 
 ## 💻 Local Setup & Development
-
-Run the following commands in your terminal to set up the project locally:
 
 ~~~bash
 # 1. Clone the repository
@@ -207,18 +176,6 @@ npm run dev
 ~~~
 
 Open `http://localhost:3000` in your browser to view the application.
-
----
-
-## 🌐 Deployment (Netlify)
-
-1. Push the source code to a **public** GitHub repository.
-2. Log in to [Netlify](https://app.netlify.com) and select **"Add new site" -> "Import an existing project"**.
-3. Use the following build settings:
-   * **Base directory:** *(Leave blank)*
-   * **Build command:** `npm run build`
-   * **Publish directory:** `dist`
-4. Click **Deploy site**.
 
 ---
 
