@@ -90,10 +90,13 @@ pcb-analyzer/
 
 ## 🌐 Netlify Üzerinden Canlı Yayına Alma
 
-1. Kodları GitHub hesabınızda **public** bir depoya yükleyin (`git push`).
+ Kodları GitHub hesabınızda **public** bir depoya yükleyin (`git push`).
 2. [Netlify](https://www.netlify.com)'ye giriş yapıp **"Add new site" -> "Import an existing project"** butonuna tıklayın.
 3. GitHub deponuzu seçin.
 4. Ayarları şu şekilde onaylayın:
    * **Build Command:** `npm run build`
    * **Publish directory:** `dist`
-5. **Deploy Site** butonuna tıklayın. Birkaç saniye içinde canlı URL'iniz aktif olacaktır!
+5. **Deploy Site** butonuna tıklayın. Birkaç saniye içinde canlı URL'iniz aktif olacaktır!1.
+
+### 🔗 Canlı Demo
+🚀 **Uygulamayı Test Edin:** (https://pcbvisionanalyzer.netlify.app)
