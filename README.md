@@ -2,7 +2,7 @@
 
 > Modern, yapay zeka ve bilgisayarlı görü (Computer Vision) destekli baskılı devre kartı (PCB) analiz, bileşen tanıma ve donanım kütüphanesi platformu.
 
-🔗 **Canlı Demo (Netlify):** [https://pcb-vision-analyzer.netlify.app](https://pcb-vision-analyzer.netlify.app)  
+🔗 **Canlı Demo (Netlify):** [https://pcb-vision-analyzer.netlify.app]((https://pcbvisionanalyzer.netlify.app))  
 📖 [English Documentation Below](#-pcb-vision-ai---smart-pcb-analysis--component-library)
 
 ---
@@ -115,7 +115,7 @@ Tarayıcınızda `http://localhost:3000` adresini açarak uygulamayı kullanmaya
 
 > A modern, AI and Computer Vision-powered Printed Circuit Board (PCB) inspection, component recognition, and hardware library platform.
 
-🔗 **Live Demo (Netlify):** [https://pcb-vision-analyzer.netlify.app](https://pcb-vision-analyzer.netlify.app)
+🔗 **Live Demo (Netlify):** [https://pcb-vision-analyzer.netlify.app]((https://pcbvisionanalyzer.netlify.app))
 
 ---
 
